@@ -8,10 +8,15 @@
 
 import UIKit
 
-class IntroViewController: UIViewController {
+class IntroViewController: UIViewController, UIScrollViewDelegate {
+
+    @IBOutlet weak var introScroller: UIScrollView!
+    @IBOutlet weak var introImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        introScroller.delegate = self
+        introScroller.contentSize = introImage.image!.size
 
         // Do any additional setup after loading the view.
     }
@@ -21,6 +26,22 @@ class IntroViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func scrollViewDidScroll(introScroller: UIScrollView) {
+        // This method is called as the user scrolls
+    }
+    
+    func scrollViewWillBeginDragging(introScroller: UIScrollView) {
+        
+    }
+    
+    func scrollViewDidEndDragging(introScroller: UIScrollView,
+        willDecelerate decelerate: Bool) {
+            // This method is called right as the user lifts their finger
+    }
+    
+    func scrollViewDidEndDecelerating(introScroller: UIScrollView) {
+        // This method is called when the scrollview finally stops scrolling.
+    }
 
     /*
     // MARK: - Navigation
