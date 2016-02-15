@@ -8,12 +8,16 @@
 
 import UIKit
 
-class TutorialViewController: UIViewController {
+class TutorialViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var tutorialScroller: UIScrollView!
+    @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var backupButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tutorialScroller.contentSize = CGSize(width: 1280, height: 568)
+        tutorialScroller.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -23,6 +27,19 @@ class TutorialViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func scrollViewDidEndDecelerating(tutorialScroller: UIScrollView!) {
+        // Get the current page based on the scroll offset
+        var page : Int = Int(round(tutorialScroller.contentOffset.x / 320))
+        
+        // Set the current page, so the dots will update
+        pageControl.currentPage = page
+        
+        if page == 3 {
+            backupButton.alpha = 1
+        } else {
+            backupButton.alpha = 0
+        }
+    }
 
     /*
     // MARK: - Navigation
