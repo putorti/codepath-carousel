@@ -16,6 +16,7 @@
 		96846E1D1C7142C700ADB185 /* carouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96846E1C1C7142C700ADB185 /* carouselUITests.swift */; };
 		96846E2B1C7143A400ADB185 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96846E2A1C7143A400ADB185 /* Common.swift */; };
 		96846E2D1C7144AB00ADB185 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96846E2C1C7144AB00ADB185 /* IntroViewController.swift */; };
+		96846E301C714C4800ADB185 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96846E2F1C714C4800ADB185 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		96846E1E1C7142C700ADB185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96846E2A1C7143A400ADB185 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		96846E2C1C7144AB00ADB185 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		96846E2F1C714C4800ADB185 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				96846E2C1C7144AB00ADB185 /* IntroViewController.swift */,
+				96846E2F1C714C4800ADB185 /* LoginViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				96846DFF1C7142C700ADB185 /* ViewController.swift in Sources */,
 				96846E2B1C7143A400ADB185 /* Common.swift in Sources */,
 				96846DFD1C7142C700ADB185 /* AppDelegate.swift in Sources */,
+				96846E301C714C4800ADB185 /* LoginViewController.swift in Sources */,
 				96846E2D1C7144AB00ADB185 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
