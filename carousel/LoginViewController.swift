@@ -74,9 +74,6 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
         // Start animating the activity indicator
         ajaxLoader.startAnimating()
         
-        // Set the Button state to "Selected"
-        signInButton.selected = true
-        
         // If both the email and password fields match what we are looking for...
         
         if emailField.text == "jason@me.com" && passwordField.text == "test" {
@@ -85,8 +82,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
             delay(2, closure: { () -> () in
                 // Stop animating the activity indicator.
                 self.ajaxLoader.stopAnimating()
-                // Set the button state back to default, "Not Selected".
-                self.signInButton.selected = false
+
                 // perform the Segue to the next screen.
                 self.performSegueWithIdentifier("tutorialSegue", sender: nil)
             })
