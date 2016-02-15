@@ -89,7 +89,7 @@
                                     <action selector="goBack:" destination="2wl-NQ-a8p" eventType="touchUpInside" id="Mkh-XR-4e0"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="1bg-d2-tF7">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" id="1bg-d2-tF7">
                                 <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -98,7 +98,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create_form" id="asL-9f-1sL">
-                                                <rect key="frame" x="0.0" y="99" width="320" height="106"/>
+                                                <rect key="frame" x="0.0" y="99" width="320" height="97"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="0Qk-If-Vkn">
@@ -120,7 +120,7 @@
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" id="H3u-cO-GN0">
-                                        <rect key="frame" x="0.0" y="400" width="320" height="104"/>
+                                        <rect key="frame" x="0.0" y="396" width="320" height="104"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in_buttons" id="V56-dY-Rqk">
