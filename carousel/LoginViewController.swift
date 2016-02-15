@@ -79,7 +79,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
         
         // If both the email and password fields match what we are looking for...
         
-        if emailField.text == "jason" && passwordField.text == "test" {
+        if emailField.text == "jason@me.com" && passwordField.text == "test" {
             
             // Delay for 2 seconds
             delay(2, closure: { () -> () in
@@ -93,7 +93,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
             
             // Otherwise, email or password are incorrect so...
   
-        } else if emailField.text == "" && passwordField.text == "" {
+        } else if emailField.text == "" || passwordField.text == "" {
             
             self.presentViewController(self.emptyAlert, animated: true) {
                 // optional code for what happens after the alert controller has finished presenting

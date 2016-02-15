@@ -10,6 +10,8 @@ import UIKit
 
 class TutorialViewController: UIViewController {
 
+    @IBOutlet weak var tutorialScroller: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
