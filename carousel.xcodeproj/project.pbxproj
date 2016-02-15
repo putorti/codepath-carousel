@@ -17,6 +17,7 @@
 		96846E2B1C7143A400ADB185 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96846E2A1C7143A400ADB185 /* Common.swift */; };
 		96846E2D1C7144AB00ADB185 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96846E2C1C7144AB00ADB185 /* IntroViewController.swift */; };
 		96846E301C714C4800ADB185 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96846E2F1C714C4800ADB185 /* LoginViewController.swift */; };
+		96F877DD1C71662700FFA4FB /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F877DC1C71662700FFA4FB /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		96846E2A1C7143A400ADB185 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		96846E2C1C7144AB00ADB185 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		96846E2F1C714C4800ADB185 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		96F877DC1C71662700FFA4FB /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				96846E2C1C7144AB00ADB185 /* IntroViewController.swift */,
 				96846E2F1C714C4800ADB185 /* LoginViewController.swift */,
+				96F877DC1C71662700FFA4FB /* TutorialViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				96846E2B1C7143A400ADB185 /* Common.swift in Sources */,
 				96846DFD1C7142C700ADB185 /* AppDelegate.swift in Sources */,
 				96846E301C714C4800ADB185 /* LoginViewController.swift in Sources */,
+				96F877DD1C71662700FFA4FB /* TutorialViewController.swift in Sources */,
 				96846E2D1C7144AB00ADB185 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +508,7 @@
 				96846E231C7142C700ADB185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96846E241C7142C700ADB185 /* Build configuration list for PBXNativeTarget "carouselTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				96846E261C7142C700ADB185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96846E271C7142C700ADB185 /* Build configuration list for PBXNativeTarget "carouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				96846E291C7142C700ADB185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
