@@ -19,6 +19,8 @@
 		96846E301C714C4800ADB185 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96846E2F1C714C4800ADB185 /* LoginViewController.swift */; };
 		96F877DD1C71662700FFA4FB /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F877DC1C71662700FFA4FB /* TutorialViewController.swift */; };
 		96F877DF1C717B5600FFA4FB /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F877DE1C717B5600FFA4FB /* TimelineViewController.swift */; };
+		96F877E11C717E6A00FFA4FB /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F877E01C717E6A00FFA4FB /* ConversationsViewController.swift */; };
+		96F877E31C717E9800FFA4FB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F877E21C717E9800FFA4FB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		96846E2F1C714C4800ADB185 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		96F877DC1C71662700FFA4FB /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		96F877DE1C717B5600FFA4FB /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		96F877E01C717E6A00FFA4FB /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		96F877E21C717E9800FFA4FB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +145,11 @@
 			isa = PBXGroup;
 			children = (
 				96846E2C1C7144AB00ADB185 /* IntroViewController.swift */,
+				96F877E01C717E6A00FFA4FB /* ConversationsViewController.swift */,
 				96846E2F1C714C4800ADB185 /* LoginViewController.swift */,
 				96F877DC1C71662700FFA4FB /* TutorialViewController.swift */,
 				96F877DE1C717B5600FFA4FB /* TimelineViewController.swift */,
+				96F877E21C717E9800FFA4FB /* SettingsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -282,10 +288,12 @@
 				96846DFF1C7142C700ADB185 /* ViewController.swift in Sources */,
 				96846E2B1C7143A400ADB185 /* Common.swift in Sources */,
 				96846DFD1C7142C700ADB185 /* AppDelegate.swift in Sources */,
+				96F877E11C717E6A00FFA4FB /* ConversationsViewController.swift in Sources */,
 				96846E301C714C4800ADB185 /* LoginViewController.swift in Sources */,
 				96F877DF1C717B5600FFA4FB /* TimelineViewController.swift in Sources */,
 				96F877DD1C71662700FFA4FB /* TutorialViewController.swift in Sources */,
 				96846E2D1C7144AB00ADB185 /* IntroViewController.swift in Sources */,
+				96F877E31C717E9800FFA4FB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
