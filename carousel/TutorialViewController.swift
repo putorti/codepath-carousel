@@ -29,7 +29,7 @@ class TutorialViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidEndDecelerating(tutorialScroller: UIScrollView!) {
         // Get the current page based on the scroll offset
-        var page : Int = Int(round(tutorialScroller.contentOffset.x / 320))
+        let page : Int = Int(round(tutorialScroller.contentOffset.x / 320))
         
         // Set the current page, so the dots will update
         pageControl.currentPage = page
